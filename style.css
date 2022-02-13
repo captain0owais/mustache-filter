@@ -1,0 +1,51 @@
+body{
+    font-family: cursive;
+}
+
+h3{
+    width:75%;
+    font-size: 25px !important;
+}
+
+button:hover{
+    background-color: burlywood !important;
+} 
+
+button{
+    font-size: 20px !important;
+}
+
+canvas{
+    border: 5px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 50px 10px white;}
+    to{box-shadow: 1px 1px 50px 10px aqua;}
+}
+
+
+
+.btn-grad {background-image: linear-gradient(to right, #603813 0%, #b29f94  51%, #603813  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
